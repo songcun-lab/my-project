@@ -1,61 +1,29 @@
-# my-project
+# my-project（建议改名为 songcun-ledger / personal-ai-ledger）
 
-> **Primary Ledger of Songcun Lab**  
-> 与 AI 共事的长期实验、方法与认知沉淀
+> 个人 AI 学习与工作流的主账本 —— 笔记、提示词、流程、实验都先汇集到这里。
 
----
+这是 [Songcun Lab](https://github.com/songcun-lab) 的「主账本」仓库：日常产生的零散内容先落到这里，成熟后再拆分到专门仓库（如 prompt 进 `codex-notes`、工具评测进 `lab-ai-tools`）。
 
-## 📌 What is this repository
+> ⚠️ **命名建议**：`my-project` 是 Git 默认练习名，看不出内容。建议改为 `songcun-ledger` 或 `personal-ai-ledger`，更专业也更易被检索。
 
-这是 **Songcun Lab 的主资产仓库**。
+## 📁 目录结构
 
-它不是一个传统意义上的“项目”，  
-而是一个 **长期持续更新的个人技术与认知账本**。
-
-这个仓库用于记录我在真实学习与使用过程中：
-
-- 如何理解 AI 与编程
-- 如何把零散经验沉淀为可复用的方法
-- 如何通过不断试错形成自己的工作方式
-- 如何让过程本身，逐渐变成资产
-
-这里的内容可能并不完美，  
-甚至包含失败与走弯路的记录。
-
-但它们都是真实发生、对长期成长有价值的过程。
-
----
-
-## 🧠 Core Principles
-
-- **长期主义**  
-  记录的是可持续成长，而不是一次性成果
-
-- **过程优先**  
-  过程本身就是资产，结果只是阶段性副产品
-
-- **真实可追溯**  
-  不美化、不删失败，允许不成熟状态存在
-
-- **可复用导向**  
-  所有内容都以「未来还能不能再用」作为判断标准
-
----
-
-## 🗂 Repository Structure
-
-```text
+```
 my-project/
-├─ README.md          # 本说明文档（资产索引）
-│
-├─ notes/             # 学习记录 / 思考日志 / 认知沉淀
-│   └─ 2026/
-│      └─ 2026-01-learning-log.md
-│
-├─ prompts/           # 可复用 Prompt（ChatGPT / Claude / Gemini 等）
-│
-├─ workflows/         # 可重复执行的流程 / 方法 / 操作步骤
-│
-├─ experiments/       # 实验性尝试（允许失败）
-│
-└─ archive/           # 阶段性完成或暂停的历史内容
+├── README.md
+├── notes/        # 日常学习笔记、想法速记
+├── prompts/      # 临时提示词（成熟后迁往 codex-notes）
+├── workflows/    # 个人工作流与操作流程
+├── experiments/  # 小实验、试错记录
+└── archive/      # 过期 / 归档内容
+```
+
+## 🧭 它和其他仓库的关系
+
+- 这里是**入口与暂存区**，内容偏个人、偏原始；
+- 沉淀成熟、可复用的部分会迁移到专门仓库；
+- 对外推荐的导航仍以 [ai-skill-index](https://github.com/songcun-lab/ai-skill-index) 为准。
+
+---
+
+🧭 返回总入口：[ai-skill-index](https://github.com/songcun-lab/ai-skill-index)
